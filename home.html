@@ -10,7 +10,7 @@
 			opacity: 0;
 		}
 	</style>
-	<link rel="stylesheet" href="css/style.min.css?_v=20240128121905">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240128172343">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,16 +38,16 @@
 		</div>
 		<header class="header">
 			<div class="header__container">
-				<div class="header__logo logo">
+				<a href="/" class="header__logo logo">
 					<img class="logo__image" src="img/logo.svg" alt="AMZOPEN">
-				</div>
+				</a>
 				<ul class="header__list">
 					<li>Бесплатный двухдневный воркшоп</li>
 					<li>10 февраля 2024</li>
 					<li>6 pm (18:00) Майами</li>
 				</ul>
 				<div class="header__menu menu">
-					<button type="button" class="menu__burger burger"><span class="burger__lines"><span></span></span></button>
+					<button type="button" class="menu__burger burger" aria-label="Меню"><span class="burger__lines"><span></span></span></button>
 					<nav class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item"><a href="#earnings" class="menu__link">Сколько можно заработать?</a></li>
@@ -94,8 +94,10 @@
 								</ul>
 							</div>
 
-							<div class="speaker__img">
+							<div class="speaker__img-wrapper">
 								<!-- <picture><source srcset="img/promo/speaker.webp" type="image/webp"><img src="img/promo/speaker.png" alt="Ведущий - Николай Шапкин"></picture> -->
+								<span class="speaker__img"></span>
+								<span class="speaker__decor"></span>
 							</div>
 						</div>
 					</div>
@@ -383,9 +385,9 @@
 					<a href="#" class="footer__link">Privacy Policy</a>
 				</div>
 				<div class="footer__logo">
-					<div class="logo">
+					<a href="/" class="logo">
 						<img class="logo__image" src="img/logo-footer.svg" alt="AMZOPEN">
-					</div>
+					</a>
 				</div>
 
 			</div>
@@ -401,7 +403,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20240128121905"></script>
+	<script src="js/app.min.js?_v=20240128172343"></script>
 </body>
 
 </html>
